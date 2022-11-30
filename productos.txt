@@ -1,0 +1,32 @@
+[
+	{
+		"title": "cartera",
+		"price": 200,
+		"foto": "foto",
+		"id": 1
+	},
+	{
+		"title": "remera",
+		"price": 400,
+		"foto": "foto",
+		"id": 3
+	},
+	{
+		"title": "cartera",
+		"price": 200,
+		"foto": "foto",
+		"id": 4
+	},
+	{
+		"title": "billetera",
+		"price": 100,
+		"foto": "foto",
+		"id": 5
+	},
+	{
+		"title": "remera",
+		"price": 400,
+		"foto": "foto",
+		"id": 6
+	}
+]
