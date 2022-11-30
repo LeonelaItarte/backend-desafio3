@@ -2,6 +2,8 @@ const ProductManager = require("./productManager")
 
 const productManager = new ProductManager("productos.txt")
 
+const PORT=8080
+
 const express = require('express');
 
 const index = express();
@@ -24,5 +26,5 @@ index.get('/productoRandom',async(req,res)=>{
     res.send(aleatorio)
 })
 
-index.listen(8080,()=>console.log('servidor arriba desde el puerto 8080')); 
+index.listen(PORT,()=>console.log('servidor arriba desde el puerto 8080')); 
 
